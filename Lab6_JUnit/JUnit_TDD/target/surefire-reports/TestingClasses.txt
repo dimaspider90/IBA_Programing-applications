@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestingClasses
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 2.729 s <<< FAILURE! - in TestingClasses
+creation  Time elapsed: 0.191 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <entities.PersonEntity@916be030> but was: <null>
+	at TestingClasses.creation(TestingClasses.java:51)
+
+update  Time elapsed: 0.01 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Объект PersonEntity не найден! ==> expected: not <null>
+	at TestingClasses.update(TestingClasses.java:65)
+
+delete  Time elapsed: 0.011 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Объект PersonEntity не найден перед удалением! ==> expected: not <null>
+	at TestingClasses.delete(TestingClasses.java:94)
+
+toxml  Time elapsed: 0.007 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Объект PersonEntity не найден в БД! ==> expected: not <null>
+	at TestingClasses.toxml(TestingClasses.java:120)
+
+jsontest  Time elapsed: 0.036 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Ошибка в формате JSON: java.text.ParseException: Unparseable date: "янв 12, 1999"
+	at TestingClasses.jsontest(TestingClasses.java:155)
+

@@ -1,0 +1,6 @@
+JAXBAPI.class
+xmlmarshalling\QueryType.class
+xmlmarshalling\PersonXML.class
+entities\PersonEntity.class
+JAXBAPI$1.class
+xmlmarshalling\DateTimeAdapter.class
