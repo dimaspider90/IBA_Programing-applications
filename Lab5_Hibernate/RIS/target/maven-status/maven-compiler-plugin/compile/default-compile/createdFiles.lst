@@ -1,0 +1,7 @@
+authorization\Login.class
+dao\daolmpl\PersonDao.class
+service\servicelmpl\CompanyService.class
+validator\Main.class
+dao\daolmpl\CompanyDao.class
+authorization\SignUp.class
+service\servicelmpl\PersonService.class
